@@ -1,0 +1,29 @@
+{
+    "packages": [
+        {
+            "name": "sha256",
+            "version": "0.1"
+        },
+        {
+            "name": "cap_utils",
+            "version": "0.1",
+            "deps": [
+                "sha256"
+            ]
+        },
+        {
+            "name": "redserver",
+            "version": "0.1",
+            "deps": [
+                "cap_utils"
+            ]
+        },
+        {
+            "name": "redclient",
+            "version": "0.1",
+            "deps": [
+                "cap_utils"
+            ]
+        }
+    ]
+}
